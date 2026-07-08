@@ -4,7 +4,7 @@ import {
   findMatchFor,
   getQueueUser,
   removeFromQueue,
-} from "../lip/matchmaking";
+} from "../lib/matchmaking";
 
 type MatchFindPayload = {
   nickname?: string;
